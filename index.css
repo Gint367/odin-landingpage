@@ -1,0 +1,20 @@
+#header-container {
+    display: flex;
+    background-color: #1F2937;
+    
+    
+}
+#header-logo-container{
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 10px;
+    border: 3px;
+    border: 10px #E5E7EB;
+}
+#header-link-container {
+    flex: 1;
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
