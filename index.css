@@ -1,4 +1,4 @@
-#header-container {
+#header-container, #hero-container {
     display: flex;
     background-color: #1F2937;
     
@@ -9,12 +9,29 @@
     font-size: 24px;
     color: #F9FAF8;
     margin: 10px;
-    border: 3px;
-    border: 10px #E5E7EB;
+    align-self: baseline;
 }
 #header-link-container {
     flex: 1;
     font-size: 18px;
     color: #E5E7EB;
+    align-self:flex-end;
+    vertical-align: top;
+    
+}
+#hero-container{
+    
+    flex-direction: row;
+    font-size: 48px;
+    color: #F9FAF8;
+    
+}
+.hero-container-text{
+    flex: 1;
+    text-align: center;
+}
+.hero-container-img {
+    flex: 1 0 auto;
+    align-items: center;
     
 }
