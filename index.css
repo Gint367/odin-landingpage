@@ -36,4 +36,14 @@
 }
 .main-body-container {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.quote-container {
+    background-color: #E5E7EB;
+}
+.call-to-action-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
